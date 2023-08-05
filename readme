@@ -1,2 +1,3 @@
 compile V with v . -prod
 compile zig with zig build-exe main.zig -lc -O ReleaseSmall
+compile nim with nim c -d:release --opt:size -o:primecomparenim main.nim
