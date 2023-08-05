@@ -1,0 +1,2 @@
+compile V with v . -prod
+compile zig with zig build-exe main.zig -lc -O ReleaseSmall
